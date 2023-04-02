@@ -2,7 +2,7 @@ package com.goit.dto;
 
 public class NameDTO {
     private String name;
-    private String lastname;
+    private String lastName;
 
     public String getName() {
         return name;
@@ -12,19 +12,19 @@ public class NameDTO {
         this.name = name;
     }
 
-    public String getLastname() {
-        return lastname;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     @Override
     public String toString() {
         return "NameDTO{" +
                 "name='" + name + '\'' +
-                ", lastname='" + lastname + '\'' +
+                ", lastName='" + lastName + '\'' +
                 '}';
     }
 }
